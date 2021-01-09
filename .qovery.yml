@@ -1,0 +1,11 @@
+---
+application:
+  name: "ttyd"
+  project: "timtimon"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-ttyd"
+  routes:
+  - application_name: "ttyd"
+    paths:
+    - "/*"
