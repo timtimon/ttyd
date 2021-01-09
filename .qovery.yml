@@ -3,6 +3,11 @@ application:
   name: "ttyd"
   project: "timtimon"
   organization: "QoveryCommunity"
+  storage:
+  - name: "systemdisk"
+    size: "500"
+    type: "slow_hdd"
+    mount_point: "/mnt/systemdisk"
 routers:
 - name: "main-ttyd"
   routes:
